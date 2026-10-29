@@ -1,0 +1,10 @@
+-- Add columns expected by POST /api/admin/tables
+-- Run in phpPgAdmin SQL tab. If wrapped in SELECT COUNT, run one line at a time.
+
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS table_type TEXT DEFAULT 'regular';
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS min_capacity INTEGER DEFAULT 1;
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS position_x DOUBLE PRECISION DEFAULT 0;
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS position_y DOUBLE PRECISION DEFAULT 0;
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS shape TEXT DEFAULT 'square';
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS color TEXT DEFAULT '#3b82f6';
+ALTER TABLE tables ADD COLUMN IF NOT EXISTS notes TEXT;

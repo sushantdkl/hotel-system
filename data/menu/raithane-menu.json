@@ -1,0 +1,245 @@
+{
+  "_source": "Client handwritten menu book, transcription supplied by the owner 2026-08-28. Prices in NPR. Crossed-out/overwritten prices ignored in favour of the latest clearly visible value.",
+  "_review": [
+    "Fish Fry name is partly overwritten in the original — confirm the name (2 pcs Rs 750 / 1 pc Rs 375).",
+    "Dhindo Set 4th variant reads 'Buff?' — confirm before production.",
+    "'Special mo:mo' in the book is a sub-heading over the five special momos, not a priced item, so it is not imported.",
+    "Signature items are named 'Raithane ...' to match the rebrand; the handwritten book reads 'Resham'.",
+    "Chicken Leg Piece kept at 2 pcs — the book brackets the three quantities as (4pcs)(2pcs)(5pcs).",
+    "Paneer Pakoda 275 / Veg Pakoda 150 kept as two items — the book writes '(veg)' beside the second price, not 'half'."
+  ],
+  "categories": [
+    {
+      "name": "Breakfast",
+      "order": 1,
+      "items": [
+        { "ref": "bf-kodo-makai-roti-set", "name": "Kodo / Makai Roti Set", "price": 450, "veg": true, "image": "/raithane/menu-sel-roti.webp" },
+        { "ref": "bf-indian", "name": "Indian Breakfast", "price": 230, "veg": true, "image": "/images/dishes/Aloo Paratha.jpg" },
+        { "ref": "bf-american", "name": "American Breakfast", "price": 550, "veg": false, "image": "/images/dishes/grand breakfast combo.jpg" },
+        { "ref": "bf-raithane-special", "name": "Raithane Special Breakfast", "price": 390, "veg": false, "image": "/raithane/serve-breakfast.webp" },
+        { "ref": "bf-egg", "name": "Egg", "price": 140, "veg": false, "variants": [ { "name": "China", "price": 140 }, { "name": "Local", "price": 160 } ], "image": "/images/dishes/Masala  Omelette.jpg" },
+        { "ref": "bf-bread-egg-set", "name": "Bread Egg Set", "price": 150, "veg": false, "image": "/images/dishes/Bread Omelette.jpg" },
+        { "ref": "bf-boil-egg", "name": "Boiled Egg (2 pcs)", "price": 80, "veg": false, "variants": [ { "name": "Normal", "price": 80 }, { "name": "Local", "price": 100 } ], "image": "/raithane/menu-egg-toast.webp" }
+      ]
+    },
+    {
+      "name": "Lunch / Khana",
+      "order": 2,
+      "items": [
+        { "ref": "kh-karnali-special-thali", "name": "Karnali Special Thali Set", "price": 750, "veg": false, "image": "/raithane/menu-special-thali.webp" },
+        { "ref": "kh-veg-normal", "name": "Veg Khana Normal", "price": 250, "veg": true, "image": "/raithane/menu-veg-set.webp" },
+        { "ref": "kh-veg-special", "name": "Veg Khana with Paneer, Mix Veg & Gundruk", "price": 450, "veg": true, "image": "/raithane/menu-dal-bhat.webp" },
+        { "ref": "kh-broiler-chicken", "name": "Broiler Chicken Khana", "price": 400, "veg": false, "image": "/images/dishes/chicken khana set.jpg" },
+        { "ref": "kh-local-chicken", "name": "Local Chicken Khana", "price": 530, "veg": false, "image": "/raithane/serve-nepali-meals.webp" },
+        { "ref": "kh-mutton", "name": "Mutton Khana", "price": 500, "veg": false, "image": "/images/dishes/mutton khana set.jpg" },
+        { "ref": "kh-fish", "name": "Fish Khana Set", "price": 500, "veg": false, "image": "/raithane/menu-fish-fry.webp" },
+        { "ref": "kh-kalij", "name": "Kalij Khana Set", "price": 950, "veg": false, "image": "/raithane/serve-meat.webp" },
+        { "ref": "kh-dhindo-set", "name": "Dhindo Set", "price": 270, "veg": false, "variants": [ { "name": "Veg", "price": 270 }, { "name": "Chicken", "price": 400 }, { "name": "Mutton", "price": 500 }, { "name": "Buff", "price": 500 } ], "image": "/raithane/menu-dhido.webp" }
+      ]
+    },
+    {
+      "name": "Tandoor",
+      "order": 3,
+      "items": [
+        { "ref": "td-tandoori-roti", "name": "Tandoori Roti", "price": 30, "veg": true, "variants": [ { "name": "Plain", "price": 30 }, { "name": "Butter", "price": 40 } ], "image": "/images/dishes/roti curry.jpg" },
+        { "ref": "td-naan", "name": "Naan", "price": 60, "veg": true, "variants": [ { "name": "Garlic", "price": 60 }, { "name": "Cheese", "price": 80 } ], "image": "/images/dishes/Plain Paratha.jpg" },
+        { "ref": "td-aloo-paratha", "name": "Aloo Paratha", "price": 60, "veg": true, "image": "/images/dishes/Aloo Paratha.jpg" }
+      ]
+    },
+    {
+      "name": "Chicken / Sekuwa / Grill",
+      "order": 4,
+      "items": [
+        { "ref": "sk-chicken-sekuwa", "name": "Chicken Sekuwa", "price": 400, "veg": false, "variants": [ { "name": "Half kg", "price": 400 }, { "name": "1 kg", "price": 700 } ], "image": "/raithane/menu-chicken-sekuwa.webp" },
+        { "ref": "sk-grill-chicken", "name": "Grill Chicken", "price": 500, "veg": false, "variants": [ { "name": "Half", "price": 500 }, { "name": "Whole", "price": 980 } ], "image": "/images/dishes/Chicken Sekuwa.jpg" },
+        { "ref": "sk-chicken-wings", "name": "Chicken Wings (4 pcs)", "price": 400, "veg": false, "image": "/images/dishes/Chicken Wings.jpg" },
+        { "ref": "sk-chicken-leg", "name": "Chicken Leg Piece (2 pcs)", "price": 180, "veg": false, "image": "/images/dishes/Chicken Wings.jpg" },
+        { "ref": "sk-chicken-lollipop", "name": "Chicken Lollipop (5 pcs)", "price": 350, "veg": false, "image": "/images/dishes/Chicken Loly Pop.avif" },
+        { "ref": "sk-afghani-chicken", "name": "Afghani Chicken", "price": 550, "veg": false, "image": "/images/dishes/Chicken Shapta.jpg" },
+        { "ref": "sk-chicken-tikka", "name": "Chicken Tikka", "price": 490, "veg": false, "image": "/images/dishes/Chicken Chilly Momo.jpg" }
+      ]
+    },
+    {
+      "name": "Mutton",
+      "order": 5,
+      "items": [
+        { "ref": "mu-boneless-sekuwa", "name": "Boneless Mutton Sekuwa", "price": 550, "veg": false, "variants": [ { "name": "Set", "price": 550 }, { "name": "1 kg", "price": 2700 } ], "image": "/images/dishes/Mutton Sekuwa.jpg" },
+        { "ref": "mu-sekuwa-with-bone", "name": "Mutton Sekuwa With Bone", "price": 450, "veg": false, "variants": [ { "name": "Set", "price": 450 }, { "name": "1 kg", "price": 1650 } ], "image": "/raithane/serve-meat.webp" },
+        { "ref": "mu-bhutuwa", "name": "Mutton Bhutuwa", "price": 550, "veg": false, "variants": [ { "name": "Set", "price": 550 }, { "name": "1 kg", "price": 2250 } ], "image": "/images/dishes/mutton bhutan.jpg" },
+        { "ref": "mu-khasi-set", "name": "Khasi Set", "price": 550, "veg": false, "image": "/images/dishes/Mutton Tass Set.jpg" },
+        { "ref": "mu-bhutan-set", "name": "Bhutan Set", "price": 350, "veg": false, "image": "/images/dishes/Kalejo Pangro.jpg" },
+        { "ref": "mu-head-ear-tongue", "name": "Head / Ear / Tongue Set", "price": 450, "veg": false, "image": "/images/dishes/Jhaneko Sekuwa.jpg" },
+        { "ref": "mu-khasi-khutta-jhol", "name": "Khasi Khutta Jhol", "price": 250, "veg": false, "image": "/images/dishes/Mutton Jhol Momo.jpg" },
+        { "ref": "mu-liver", "name": "Mutton Liver (1 kg)", "price": 1850, "veg": false, "image": "/images/dishes/Kalejo Pangro.jpg" }
+      ]
+    },
+    {
+      "name": "Fish",
+      "order": 6,
+      "items": [
+        { "ref": "fs-bbq", "name": "Fish BBQ (1 kg)", "price": 950, "veg": false, "image": "/raithane/menu-fish-fry.webp" },
+        { "ref": "fs-fry", "name": "Fish Fry", "price": 375, "veg": false, "variants": [ { "name": "1 pc", "price": 375 }, { "name": "2 pcs", "price": 750 } ], "image": "/raithane/menu-fish-fry.webp" }
+      ]
+    },
+    {
+      "name": "Choila",
+      "order": 7,
+      "items": [
+        { "ref": "ch-mutton-choila", "name": "Mutton Choila", "price": 400, "veg": false, "image": "/images/dishes/Mutton Chhoila.jpg" },
+        { "ref": "ch-chicken-choila", "name": "Chicken Choila", "price": 300, "veg": false, "image": "/images/dishes/Chicken Chhoila.jpg" },
+        { "ref": "ch-duck-choila", "name": "Duck Choila", "price": 450, "veg": false, "image": "/raithane/menu-choila.webp" }
+      ]
+    },
+    {
+      "name": "Noodles / Chowmein",
+      "order": 8,
+      "items": [
+        { "ref": "nd-veg-chowmein", "name": "Veg Chowmein", "price": 130, "veg": true, "image": "/images/dishes/Veg. Chowmin.jpg" },
+        { "ref": "nd-chicken-chowmein", "name": "Chicken Chowmein", "price": 190, "veg": false, "image": "/images/dishes/Chicken Chowmin.jpg" },
+        { "ref": "nd-mix-chowmein", "name": "Mix Chowmein", "price": 220, "veg": false, "description": "Chicken + sausage", "image": "/images/dishes/Mix Chowmin.jpg" },
+        { "ref": "nd-raithane-special-chowmein", "name": "Raithane Daure Special Chowmein", "price": 350, "veg": false, "description": "Chicken, sausage, mutton, egg, sweet corn", "image": "/raithane/menu-chowmein.webp" }
+      ]
+    },
+    {
+      "name": "Fried Rice",
+      "order": 9,
+      "items": [
+        { "ref": "fr-veg", "name": "Veg Fried Rice", "price": 175, "veg": true, "image": "/images/dishes/Veg. Fried Rice.jpg" },
+        { "ref": "fr-egg", "name": "Egg Fried Rice", "price": 220, "veg": false, "image": "/images/dishes/Egg Fried Rice.jpg" },
+        { "ref": "fr-chicken", "name": "Chicken Fried Rice", "price": 280, "veg": false, "image": "/images/dishes/Chicken Fried Rice.jpg" },
+        { "ref": "fr-mutton", "name": "Mutton Fried Rice", "price": 350, "veg": false, "image": "/images/dishes/Mix Fried Rice.jpg" },
+        { "ref": "fr-mix", "name": "Mix Fried Rice", "price": 450, "veg": false, "image": "/images/dishes/Mix Fried Rice.jpg" }
+      ]
+    },
+    {
+      "name": "Biryani",
+      "order": 10,
+      "items": [
+        { "ref": "br-chicken", "name": "Chicken Biryani", "price": 340, "veg": false, "image": "/images/dishes/biryani.jpg" },
+        { "ref": "br-mutton", "name": "Mutton Biryani", "price": 490, "veg": false, "image": "/images/dishes/Normal Biryani.jpg" }
+      ]
+    },
+    {
+      "name": "Momo",
+      "order": 11,
+      "items": [
+        { "ref": "mo-veg", "name": "Veg Momo", "price": 120, "veg": true, "variants": [ { "name": "Steam", "price": 120 }, { "name": "Fry", "price": 150 } ], "image": "/raithane/menu-momo.webp" },
+        { "ref": "mo-chicken", "name": "Chicken Momo", "price": 150, "veg": false, "variants": [ { "name": "Steam", "price": 150 }, { "name": "Fry", "price": 180 } ], "image": "/images/dishes/Chicken Steam Momo.jpg" },
+        { "ref": "mo-mutton", "name": "Mutton Momo", "price": 240, "veg": false, "variants": [ { "name": "Steam", "price": 240 }, { "name": "Fry", "price": 270 } ], "image": "/images/dishes/Mutton Steam Momo.jpg" },
+        { "ref": "mo-chicken-c", "name": "Chicken C-Momo", "price": 230, "veg": false, "image": "/images/dishes/Chicken C Momo.jpg" },
+        { "ref": "mo-chicken-crispy", "name": "Chicken Crispy Momo", "price": 220, "veg": false, "image": "/images/dishes/Chcken Fried Momo.jpg" },
+        { "ref": "mo-chicken-kothey", "name": "Chicken Kothey Momo", "price": 190, "veg": false, "image": "/images/dishes/fry-momo.jpg" },
+        { "ref": "mo-chicken-chilli", "name": "Chicken Chilli Momo", "price": 230, "veg": false, "image": "/images/dishes/Chicken Chilly Momo.jpg" },
+        { "ref": "mo-fried", "name": "Fried Momo", "price": 190, "veg": false, "image": "/images/dishes/fry-momo.jpg" }
+      ]
+    },
+    {
+      "name": "Soup",
+      "order": 12,
+      "items": [
+        { "ref": "sp-veg", "name": "Veg Soup", "price": 120, "veg": true, "image": "/images/dishes/Veg Hot N Sour.jpg" },
+        { "ref": "sp-chicken", "name": "Chicken Soup", "price": 175, "veg": false, "image": "/images/dishes/Chicken Hot N Sour.jpg" },
+        { "ref": "sp-hot-sour", "name": "Hot & Sour Soup", "price": 220, "veg": false, "image": "/images/dishes/Chicken Hot N Sour.jpg" },
+        { "ref": "sp-mix", "name": "Mix Soup", "price": 230, "veg": false, "image": "/images/dishes/Chicken Thupka.jpg" },
+        { "ref": "sp-mushroom", "name": "Mushroom Soup", "price": 200, "veg": true, "image": "/images/dishes/Mushroom Soup.jpg" }
+      ]
+    },
+    {
+      "name": "Snacks",
+      "order": 13,
+      "items": [
+        { "ref": "sn-paneer-pakoda", "name": "Paneer Pakoda", "price": 275, "veg": true, "image": "/images/dishes/Paneer Pakoda.jpg" },
+        { "ref": "sn-veg-pakoda", "name": "Veg Pakoda", "price": 150, "veg": true, "image": "/images/dishes/Veg. Pakoda.jpg" },
+        { "ref": "sn-french-fries", "name": "French Fries", "price": 150, "veg": true, "image": "/images/dishes/French Fries.jpg" },
+        { "ref": "sn-chicken-chilli", "name": "Chicken Chilli", "price": 350, "veg": false, "image": "/images/dishes/chicken-chilly.jpg" },
+        { "ref": "sn-chicken-65", "name": "Chicken 65", "price": 385, "veg": false, "image": "/images/dishes/Draigon Chicken.jpg" },
+        { "ref": "sn-karnali-aalu", "name": "Karnali Aalu", "price": 150, "veg": true, "variants": [ { "name": "Boiled", "price": 150 }, { "name": "Roasted", "price": 200 } ], "image": "/images/dishes/aalo sadhenko.jpg" }
+      ]
+    },
+    {
+      "name": "Khaja Set",
+      "order": 14,
+      "items": [
+        { "ref": "kj-raithane-khaja-set", "name": "Raithane Khaja Set", "price": 750, "veg": false, "description": "Local chicken, bhutuwa, fish fry, salad, pickle, gundruk achar", "image": "/raithane/serve-khaja.webp" }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "order": 15,
+      "items": [
+        { "ref": "pz-veg-lover", "name": "Veg Lover Pizza", "price": 395, "veg": true, "variants": [ { "name": "Small", "price": 395 }, { "name": "Medium", "price": 495 }, { "name": "Large", "price": 595 } ], "image": "/images/dishes/Veg. Pizza.jpg" },
+        { "ref": "pz-paneer", "name": "Paneer Pizza", "price": 495, "veg": true, "variants": [ { "name": "Small", "price": 495 }, { "name": "Medium", "price": 595 }, { "name": "Large", "price": 695 } ], "image": "/images/dishes/Paneer Pizza.jpg" },
+        { "ref": "pz-chicken-tikka", "name": "Chicken Tikka Pizza", "price": 485, "veg": false, "variants": [ { "name": "Small", "price": 485 }, { "name": "Medium", "price": 585 }, { "name": "Large", "price": 685 } ], "image": "/images/dishes/Chicken Pizza.jpg" },
+        { "ref": "pz-meat-lover", "name": "Meat Lover Pizza", "price": 525, "veg": false, "variants": [ { "name": "Small", "price": 525 }, { "name": "Medium", "price": 655 }, { "name": "Large", "price": 725 } ], "image": "/images/dishes/Mushroom Pizza.jpg" }
+      ]
+    },
+    {
+      "name": "Sandwich",
+      "order": 16,
+      "items": [
+        { "ref": "sw-veg", "name": "Veg Sandwich", "price": 250, "veg": true, "image": "/images/dishes/Veg Sandwich.jpg" },
+        { "ref": "sw-chicken", "name": "Chicken Sandwich", "price": 350, "veg": false, "image": "/images/dishes/Chicken Sandwich.jpg" },
+        { "ref": "sw-cheese", "name": "Cheese Sandwich", "price": 350, "veg": true, "image": "/images/dishes/Veg Sandwich.jpg" },
+        { "ref": "sw-grill", "name": "Grill Sandwich", "price": 380, "veg": false, "image": "/images/dishes/Club Sandwich.jpg" },
+        { "ref": "sw-club", "name": "Club Sandwich", "price": 420, "veg": false, "image": "/images/dishes/Club Sandwich.jpg" }
+      ]
+    },
+    {
+      "name": "Coffee - Black Base",
+      "order": 17,
+      "items": [
+        { "ref": "cb-espresso", "name": "Espresso", "price": 100, "veg": true, "image": "/images/dishes/espresso.jpg" },
+        { "ref": "cb-doppio", "name": "Doppio", "price": 120, "veg": true, "image": "/images/dishes/doppio.webp" },
+        { "ref": "cb-lungo", "name": "Lungo", "price": 130, "veg": true, "image": "/images/dishes/espresso.jpg" },
+        { "ref": "cb-americano", "name": "Americano", "price": 130, "veg": true, "variants": [ { "name": "Single Shot", "price": 130 }, { "name": "Double", "price": 140 } ], "image": "/images/dishes/Americano.webp" }
+      ]
+    },
+    {
+      "name": "Coffee - Milk Base",
+      "order": 18,
+      "items": [
+        { "ref": "cm-cappuccino", "name": "Cappuccino", "price": 160, "veg": true, "image": "/images/dishes/Cappuccino.jpg" },
+        { "ref": "cm-cafe-latte", "name": "Cafe Latte", "price": 160, "veg": true, "image": "/images/dishes/Café latte.jpg" },
+        { "ref": "cm-cafe-mocha", "name": "Cafe Mocha", "price": 200, "veg": true, "image": "/images/dishes/caffe motcha.jpg" }
+      ]
+    },
+    {
+      "name": "Coffee Dessert",
+      "order": 19,
+      "items": [
+        { "ref": "cds-honey-doppio", "name": "Honey Doppio", "price": 150, "veg": true, "image": "/images/dishes/doppio.webp" },
+        { "ref": "cds-affogato", "name": "Affogato", "price": 200, "veg": true, "image": "/images/dishes/ice cream.jpg" },
+        { "ref": "cds-espresso-con-panna", "name": "Espresso Con Panna", "price": 220, "veg": true, "image": "/images/dishes/Macchiato.jpg" }
+      ]
+    },
+    {
+      "name": "Iced / Refreshers",
+      "order": 20,
+      "items": [
+        { "ref": "ic-iced-americano", "name": "Iced Americano", "price": 180, "veg": true, "image": "/images/dishes/Iced Americano.jpg" },
+        { "ref": "ic-iced-cappuccino", "name": "Iced Cappuccino", "price": 200, "veg": true, "image": "/images/dishes/iced cappucino.jpg" },
+        { "ref": "ic-mint-lemonade", "name": "Mint Lemonade", "price": 200, "veg": true, "image": "/images/dishes/Lamonade.jpg" },
+        { "ref": "ic-virgin-mojito", "name": "Virgin Mojito", "price": 250, "veg": true, "image": "/images/dishes/Virgin Mojito.jpg" },
+        { "ref": "ic-blended-mint-lemonade", "name": "Blended Mint Lemonade", "price": 200, "veg": true, "image": "/images/dishes/Lamonade.jpg" }
+      ]
+    },
+    {
+      "name": "Cold Drinks",
+      "order": 21,
+      "items": [
+        { "ref": "cd-coke-sprite-fanta", "name": "Coke / Sprite / Fanta", "price": 80, "veg": true, "image": "/images/dishes/Cold Drinks.jpg" },
+        { "ref": "cd-iced-soda", "name": "Iced Masala Soda / Coke / Sprite / Fanta", "price": 140, "veg": true, "image": "/images/dishes/jumbo coke.jpg" }
+      ]
+    },
+    {
+      "name": "Tea & Lassi",
+      "order": 22,
+      "items": [
+        { "ref": "tl-milk-tea", "name": "Milk Tea", "price": 40, "veg": true, "image": "/raithane/menu-milk-tea.webp" },
+        { "ref": "tl-banana-lassi", "name": "Banana Lassi", "price": 130, "veg": true, "image": "/images/dishes/Banana Lassi.jpg" },
+        { "ref": "tl-mixed-lassi", "name": "Mixed Lassi", "price": 150, "veg": true, "image": "/raithane/menu-lassi.webp" },
+        { "ref": "tl-normal-lassi", "name": "Normal Lassi", "price": 100, "veg": true, "image": "/images/dishes/Sweet Lassi.jpg" }
+      ]
+    }
+  ]
+}

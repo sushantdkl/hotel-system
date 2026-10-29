@@ -1,0 +1,17 @@
+{
+  "name": "Raithane Daure Chulo",
+  "short_name": "Raithane",
+  "description": "Traditional Nepali kitchen in Birendranagar-08, Surkhet.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F3EA",
+  "theme_color": "#A54B32",
+  "icons": [
+    {
+      "src": "/images/brand/raithane-logo.jpeg?v=2085",
+      "sizes": "654x666",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
